@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(65, 105, 225, 0.11);
+        }
+        
+        *,
+        *::before,
+        *::after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .mybutton {
+            width: 30%;
+            height: 70px;
+            background-color: hotpink;
+            margin-top: 10px;
+            margin-left: 2%;
+            float: left;
+            color: white;
+            font-size: 20px;
+        }
+        
+        #output1,
+        #output2,
+        #output3 {
+            width: 30%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            background-color: rgba(0, 0, 255, 0.137);
+            float: left;
+            margin-left: 2%;
+            text-align: left;
+            padding: 5px;
+            border: 2px solid hotpink;
+            font-size: 52px;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" class="mybutton" onclick="build()">build cards</button>
+    <button type="button" class="mybutton" onclick="shuffle()">shuffle cards</button>
+    <button type="button" class="mybutton" onclick="deal()">deal cards</button>
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <div id="output3"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
