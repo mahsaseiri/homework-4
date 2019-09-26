@@ -64,7 +64,7 @@ function build() {
     cards.push("&#127182;");
 
     console.log(cards);
-    document.getElementById("output1").innerHTML = cards;
+    document.getElementById("output").innerHTML = cards;
 
 }
 
@@ -146,7 +146,7 @@ function build2() {
         }
     }
     console.log(cards);
-    document.getElementById("output1").innerHTML = cards;
+    document.getElementById("output").innerHTML = cards;
 }
 
 function shuffle() {
@@ -158,7 +158,7 @@ function shuffle() {
 
     }
     console.log(cards);
-    document.getElementById("output2").innerHTML = cards;
+    document.getElementById("output").innerHTML = cards;
 
 }
 
@@ -176,8 +176,8 @@ function deal() {
     console.log(player1);
     console.log(player2);
     console.log(cards.length);
-    document.getElementById("output3").innerHTML = "player1: " + player1 + "<br><br>";
-    document.getElementById("output3").innerHTML += "player2: " + player2;
+    document.getElementById("output").innerHTML = "player1: " + player1 + "<br><br>";
+    document.getElementById("output").innerHTML += "player2: " + player2;
 
 
 }
